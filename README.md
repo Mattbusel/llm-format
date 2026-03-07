@@ -211,11 +211,18 @@ cl /std:c++17 /W4 /I include examples\basic_format.cpp /Fe:basic_format.exe
 
 | Repo | What it does |
 |------|-------------|
-| [llm-stream](https://github.com/Mattbusel/llm-stream) | Streaming responses from OpenAI & Anthropic |
-| [llm-cache](https://github.com/Mattbusel/llm-cache) | Response caching |
+| [llm-stream](https://github.com/Mattbusel/llm-stream) | Stream OpenAI & Anthropic responses via SSE |
+| [llm-cache](https://github.com/Mattbusel/llm-cache) | LRU response cache |
 | [llm-cost](https://github.com/Mattbusel/llm-cost) | Token counting + cost estimation |
-| [llm-retry](https://github.com/Mattbusel/llm-retry) | Retry logic + circuit breaker |
-| **llm-format** *(this repo)* | Structured output / schema enforcement |
+| [llm-retry](https://github.com/Mattbusel/llm-retry) | Retry + circuit breaker |
+| **llm-format** *(this repo)* | Structured output / JSON schema |
+| [llm-embed](https://github.com/Mattbusel/llm-embed) | Embeddings + vector search |
+| [llm-pool](https://github.com/Mattbusel/llm-pool) | Concurrent request pool |
+| [llm-log](https://github.com/Mattbusel/llm-log) | Structured JSONL logging |
+| [llm-template](https://github.com/Mattbusel/llm-template) | Prompt templating |
+| [llm-agent](https://github.com/Mattbusel/llm-agent) | Tool-calling agent loop |
+| [llm-rag](https://github.com/Mattbusel/llm-rag) | RAG pipeline |
+| [llm-eval](https://github.com/Mattbusel/llm-eval) | Evaluation + consistency scoring |
 
 ## License
 
